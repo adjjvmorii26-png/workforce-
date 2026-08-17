@@ -1,0 +1,11 @@
+# world_builder.py
+def world_builder(sandbox):
+    sandbox.state["world"] = {
+        "name": "Aetheria-Prime",
+        "era": "Epoch 1: Genesis",
+        "climate": "Dynamic",
+        "dimensions": {"width": 10, "height": 10},
+        "gravity": 9.81,
+        "magic_density": 0.75
+    }
+    sandbox.log("WorldBuilder initialized world 'Aetheria-Prime'")
